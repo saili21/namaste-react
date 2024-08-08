@@ -1,3 +1,77 @@
-#heading {
-    color: red;
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
 }
+
+.logo {
+    width: 150px;
+}
+
+.nav-items > ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.nav-items > ul > li {
+    padding: 10px;
+    margin: 10px;
+}
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res-card {
+    margin: 5px;
+    width: 200px;
+    height: 400px;
+    padding: 5px;
+}
+
+.res-card:hover {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.search {
+    padding: 10px;
+}
+
+.filter-btn {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.res-logo {
+    width: 100%;
+}
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card {
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+    background-color: lightgray;
+}
+
+.login-btn {
+    padding: 0 15px;
+}
+
+.filter{
+    display: flex;
+}
+
+.cuisines-text{
+    word-break: break-all;
+}
+
